@@ -9,8 +9,9 @@
   "author": "Matheus Barbosa",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.6",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "mongoose": "^5.5.3"
+    "mongoose": "^5.5.4"
   }
 }

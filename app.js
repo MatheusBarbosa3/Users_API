@@ -8,7 +8,7 @@ const options = { reconnectTries: Number.MAX_VALUE, reconnectInterval: 500, pool
 
 //Connection with database
 mongoose.connect(url, options);
-//mongoose.set('useCreateIndex', true);
+mongoose.set('useCreateIndex', true);
 
 mongoose.connection.on('error', (err) => {
     console.log('Error in connecting to the database: ' + err);
